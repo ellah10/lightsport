@@ -20,7 +20,7 @@ function Services() {
                     <h1>Services lightsports</h1>
                     <p>votre partenaire pour des équipements sportifs sur-mesure, alliant qualité, style et personnalisation unique.</p>
                     <div className="equipements-items">
-                        <div className="equipements-item">
+                        <div className="equipements-item rev">
                             <img src={equip_sport} className="equip-img" alt="equipements-sportifs" />
                             <div className="desc">
                                 <h3>equipements Sportifs</h3>
@@ -39,7 +39,7 @@ function Services() {
             </FadeInSection>
             <FadeInSection>
                 <div className="gallerie container">
-                    <h3>gallerie lightsport</h3>
+                    <h3>Gallerie lightsport</h3>
                     <p>Maillots de sport personnalisés et équipements variés pour tous les athlètes</p>
                     <div className="galleie-pic">
                         <img src={pic1} alt="pic1" />

@@ -121,7 +121,7 @@ function Home() {
             </FadeInSection>
             <FadeInSection>
                 <div className="testimonial container">
-                    <h1>temoingnages</h1>
+                    <h1>temoignages</h1>
                     <p>
                         L’expérience unique que nos clients et partenaires partagent
                     </p>
