@@ -5,14 +5,14 @@ function Footer() {
         <div className="footer container">
             <div className="footer-adress">
                 <h3>
-                    Chic Maillot
+                    Lightsports
                 </h3>
                 <p>boulevard jean paul2, Au carrefour saint joseph</p>
                 <p>Lomé-togo</p>
             </div>
             <div className="footer-contacts">
                 <h3>Contacts</h3>
-                <p>-228-80-40-01-45</p>
+                <p>+228-80-40-01-45</p>
                 <p>store@yahoo.fr</p>
             </div>
             <div className="footer-newsletter">

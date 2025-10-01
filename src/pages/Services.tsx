@@ -39,7 +39,7 @@ function Services() {
             </FadeInSection>
             <FadeInSection>
                 <div className="gallerie container">
-                    <h3>Gallerie lightsport</h3>
+                    <h3>Gallerie lightsports</h3>
                     <p>Maillots de sport personnalisés et équipements variés pour tous les athlètes</p>
                     <div className="galleie-pic">
                         <img src={pic1} alt="pic1" />
