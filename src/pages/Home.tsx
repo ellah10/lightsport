@@ -2,8 +2,8 @@ import TestimonialCarousel from "../components/TestimonialCarousel";
 import Footer from "../components/Footer";
 import jerseyPic from "../assets/soccer.jpg";
 import customJersey from "../assets/ls2.jpg";
-import equipement from "../assets/equipement.jpg"
-import impression from "../assets/ls1.jpg"
+import equipement from "../assets/materiel_sportif.jpg"
+import impression from "../assets/serigraphie.jpg"
 import kit from "../assets/ls13.jpg"
 import real1 from "../assets/ls9.jpg";
 import real2 from "../assets/ls12.jpg";
@@ -24,7 +24,7 @@ function Home() {
                     <img src={jerseyPic} alt="jerseyPic" className='banner-pic' />
                     <div className="banner-text">
                         <h1>Bienvenue dans l’univers des maillots sportifs sur mesure !</h1>
-                        <p>Depuis 2004, nous créons des maillots personnalisés et des équipements sportifs de qualité, alliant savoir-faire artisanal et technologies modernes. Notre atelier, au cœur du Togo, conçoit des produits répondant aux standards internationaux tout en célébrant fièrement l’identité et les couleurs africaines.</p>
+                        <p>Chez LIGHTSPORTS, nous offrons aux sportifs des produits et services de haute qualité, alliant style, performance et professionnalisme. De la conception de maillots et équipements sportif à l’accompagnement de carrière et au coaching personnalisé, nous faisons de chaque expérience sportive un véritable succès.</p>
                         <button className="banner-btn">
                             <span>
                                 en savoir plus

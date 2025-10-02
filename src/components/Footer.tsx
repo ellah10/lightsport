@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function Footer() {
     return (
@@ -12,8 +12,8 @@ function Footer() {
             </div>
             <div className="footer-contacts">
                 <h3>Contacts</h3>
-                <p>+228-80-40-01-45</p>
-                <p>store@yahoo.fr</p>
+                <p>+228-92-42-08-87</p>
+                <p>lightsports@gmail.com</p>
             </div>
             <div className="footer-newsletter">
                 <h3>S'inscrire au news letters</h3>

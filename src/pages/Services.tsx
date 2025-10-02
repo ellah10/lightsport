@@ -1,13 +1,17 @@
-import equip_sport from "../assets/real-jersey.jpg"
-import store_jersey from "../assets/jersey-storeb.jpg"
-import pic1 from "../assets/pic1.jpg"
-import pic2 from "../assets/pic2.jpg"
-import pic3 from "../assets/pic3.jpg"
-import pic4 from "../assets/pic4.jpg"
-import pic5 from "../assets/pic5.jpg"
-import pic6 from "../assets/pic6.jpg"
-import pic7 from "../assets/pic7.jpg"
-import pic8 from "../assets/pic8.jpg"
+import equip_sport from "../assets/boutique.jpg"
+import store_jersey from "../assets/maillots_sur_mesure.jpg"
+import gestion_pro from "../assets/Gestion de carrière pour sportifs professionnels.jpg"
+import training_perso from "../assets/entraînement personnalisé.jpg"
+import impression_perso from "../assets/bryan_ls.jpg"
+
+import pic1 from "../assets/elasto.jpg"
+import pic2 from "../assets/maillot1.jpg"
+import pic3 from "../assets/maillot3.jpg"
+import pic4 from "../assets/short.jpg"
+import pic5 from "../assets/cullotte.jpg"
+import pic6 from "../assets/godasse.jpg"
+import pic7 from "../assets/basket2.jpg"
+import pic8 from "../assets/ballon.jpg"
 import Footer from "../components/Footer"
 import FadeInSection from "../components/FadeInSection";
 
@@ -24,7 +28,7 @@ function Services() {
                             <img src={equip_sport} className="equip-img" alt="equipements-sportifs" />
                             <div className="desc">
                                 <h3>equipements Sportifs</h3>
-                                <p>Chez Services Chic Maillot, nous vous proposons une sélection complète d’équipements sportifs adaptés à tous les niveaux et toutes les disciplines. Des chaussures performantes aux ballons de qualité professionnelle, en passant par une large gamme d’accessoires, chaque produit est choisi pour offrir confort, durabilité et style. Que vous soyez un athlète débutant, un passionné de sport ou un professionnel en quête de matériel fiable, notre offre vous accompagne dans chaque entraînement, chaque match et chaque compétition, afin que vous puissiez donner le meilleur de vous-même à chaque instant.</p>
+                                <p>Chez Lightsports, nous vous proposons une sélection complète d’équipements sportifs adaptés à tous les niveaux et toutes les disciplines. Des chaussures performantes aux ballons de qualité professionnelle, en passant par une large gamme d’accessoires, chaque produit est choisi pour offrir confort, durabilité et style. Que vous soyez un athlète débutant, un passionné de sport ou un professionnel en quête de matériel fiable, notre offre vous accompagne dans chaque entraînement, chaque match et chaque compétition, afin que vous puissiez donner le meilleur de vous-même à chaque instant.</p>
                             </div>
                         </div>
                         <div className="equipements-item">
@@ -34,6 +38,20 @@ function Services() {
                             </div>
                             <img src={store_jersey} className="equip-img" alt="jersey_store" />
                         </div>
+                        <div className="equipements-item">
+                            <img src={gestion_pro} className="equip-img" alt="jersey_store" />
+                            <div className="desc">
+                                <h3>Gestion de carrière pour sportifs professionnels</h3>
+                                <p>Avec Lightsports, donnez à votre carrière sportive une nouvelle dimension grâce à notre accompagnement personnalisé. Nous aidons les sportifs professionnels à valoriser leur talent, à optimiser leur visibilité et à saisir les meilleures opportunités, que ce soit sur le terrain ou en dehors. Notre équipe met en place des stratégies adaptées à vos objectifs : négociation de contrats, développement d’image, gestion médiatique et préparation à la reconversion. Chaque sportif bénéficie d’un suivi sur mesure, pensé pour renforcer sa performance, sécuriser son avenir et bâtir une carrière durable. Que vous soyez en début de parcours ou déjà confirmé, notre service de gestion de carrière vous permet de rester concentré sur l’essentiel : exceller dans votre discipline.</p>
+                            </div>
+                        </div>
+                        <div className="equipements-item">
+                            <div className="desc">
+                                <h3>Coaching et entraînement personnalisé</h3>
+                                <p>Avec Lightsports, profitez d’un accompagnement sur mesure pour atteindre vos objectifs sportifs. Nos programmes de coaching allient expertise technique, préparation physique et suivi individualisé afin d’optimiser vos performances. Chaque séance est adaptée à votre niveau, à vos besoins et à vos ambitions, qu’il s’agisse d’améliorer vos capacités, de développer votre endurance ou de perfectionner votre technique. Grâce à nos entraîneurs expérimentés, vous bénéficiez d’un encadrement professionnel qui vous motive, vous guide et vous aide à repousser vos limites. Que vous soyez amateur passionné ou athlète confirmé, notre coaching personnalisé vous donne les clés pour progresser efficacement et révéler tout votre potentiel.</p>
+                            </div>
+                            <img src={training_perso} className="equip-img" alt="jersey_store" />
+                        </div>
                     </div>
                 </div>
             </FadeInSection>
@@ -42,14 +60,14 @@ function Services() {
                     <h3>Gallerie lightsports</h3>
                     <p>Maillots de sport personnalisés et équipements variés pour tous les athlètes</p>
                     <div className="galleie-pic">
-                        <img src={pic1} alt="pic1" />
-                        <img src={pic2} alt="pic2" />
-                        <img src={pic3} alt="pic3" />
-                        <img src={pic4} alt="pic4" />
-                        <img src={pic5} alt="pic5" />
-                        <img src={pic6} alt="pic6" />
-                        <img src={pic7} alt="pic7" />
-                        <img src={pic8} alt="pic8" />
+                        <img src={pic1} alt="elasto" />
+                        <img src={pic2} alt="maillot1" />
+                        <img src={pic3} alt="maillot3" />
+                        <img src={pic4} alt="short" />
+                        <img src={pic5} alt="cullotte" />
+                        <img src={pic6} alt="godasse.jpg" />
+                        <img src={pic7} alt="basket2" />
+                        <img src={pic8} alt="ballon" />
                     </div>
                 </div>
             </FadeInSection>
@@ -68,7 +86,7 @@ function Services() {
                             </FadeInSection>
                         </div>
                         <div className="jersey-item">
-                            <img src={store_jersey} alt="store_jersey" />
+                            <img src={impression_perso} alt="store_jersey" />
                             <FadeInSection>
                                 <div className="jersey-item-desc">
                                     <h4>Impression Personnalisée</h4>

@@ -1,5 +1,4 @@
-import React from 'react'
-import mission_pic from "../assets/mission.jpg";
+import mission_pic from "../assets/ls14.jpg";
 import Footer from '../components/Footer';
 import FadeInSection from "../components/FadeInSection";
 
