@@ -311,11 +311,14 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     margin-top: 50px;
-    img {
+    .item {
       width: 25%;
-      height: 300px;
-      object-fit: cover;
-      padding: 10px;
+      img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        padding: 10px;
+      }
     }
   }
 }
@@ -810,9 +813,15 @@ nav {
       font-size: 25px;
     }
     .real-items {
-      width: 100%;
-      img {
-        height: 200px;
+      display: flex;
+      flex-wrap: wrap;
+      .item {
+        flex: 0 0 50%;
+        margin-bottom: 10px;
+        img {
+          width: 100%;
+          height: 200px;
+        }
       }
     }
   }

@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { useEffect } from "react";
 
 
-import customJersey from "../assets/ls2.jpg";
+import customJersey from "../assets/maillot_lightsports.jpg";
 import equipement from "../assets/materiel_sportif.jpg";
 import impression from "../assets/serigraphie.jpg";
 import kit from "../assets/ls13.jpg";

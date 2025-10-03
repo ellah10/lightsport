@@ -43,14 +43,30 @@ function Home() {
                     <h2>Nos Réalisations</h2>
                     <p>Découvrez nos créations les plus impressionnantes, où style, qualité et personnalisation se rencontrent. Cliquez et laissez-vous inspirer !</p>
                     <div className="real-items">
-                        <img src={real1} alt="real1" />
-                        <img src={real2} alt="real2" />
-                        <img src={real3} alt="real3" />
-                        <img src={real4} alt="real4" />
-                        <img src={real5} alt="real5" />
-                        <img src={real6} alt="real6" />
-                        <img src={real7} alt="real6" />
-                        <img src={real8} alt="real6" />
+                        <div className="item">
+                            <img src={real1} alt="real1" />
+                        </div>
+                        <div className="item">
+                            <img src={real2} alt="real2" />
+                        </div>
+                        <div className="item">
+                            <img src={real3} alt="real3" />
+                        </div>
+                        <div className="item">
+                            <img src={real4} alt="real4" />
+                        </div>
+                        <div className="item">
+                            <img src={real5} alt="real5" />
+                        </div>
+                        <div className="item">
+                            <img src={real6} alt="real6" />
+                        </div>
+                        <div className="item">
+                            <img src={real7} alt="real6" />
+                        </div>
+                        <div className="item">
+                            <img src={real8} alt="real6" />
+                        </div>
                     </div>
                 </div>
             </FadeInSection>
