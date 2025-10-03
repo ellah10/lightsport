@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSpring, animated } from "@react-spring/web";
-import { ArrowRight } from "lucide-react"; 
+import { ArrowRight } from "lucide-react";
 import { useEffect } from "react";
 
 
@@ -16,7 +16,6 @@ interface Service {
     title: string;
     description: string;
 }
-
 
 const services: Service[] = [
     {
