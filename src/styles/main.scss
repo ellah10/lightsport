@@ -738,22 +738,68 @@ nav {
     }
   }
   .service {
-    width: 100%;
     h2 {
-      font-size: 25px;
+      font-size: 32px;
     }
-    .service-items {
-      width: 100%;
+    p {
+      font-size: 16px;
+      max-width: 90%;
+    }
+    .tab-buttons {
       display: flex;
+      flex-direction: row;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      gap: 10px;
+      padding: 10px;
+      button {
+        flex: 0 0 auto;
+        margin: 0;
+        padding: 12px 20px;
+        font-size: 16px;
+        border-radius: 30px;
+        white-space: nowrap;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        border: none;
+        background-color: #eceff3;
+        color: #000;
+      }
+    }
+    .tab-content {
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      border-radius: 20px;
       .item {
-        width: 100%;
-        margin: 0 0 20px 0;
+        flex-direction: column;
+        height: auto;
+        .item-image {
+          width: 100%;
+          height: 250px;
+          margin-bottom: 15px;
+          img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+          }
+        }
         .item-text {
           width: 100%;
-          height: auto;
+          text-align: center;
+          padding: 20px;
+          h3 {
+            font-size: 24px;
+            margin: 10px 0;
+          }
+          p {
+            font-size: 14px;
+            margin-bottom: 10px;
+          }
+          .more-btn {
+            padding: 12px 20px;
+            font-size: 15px;
+            margin: 0 auto;
+            display: inline-flex;
+          }
         }
       }
     }
