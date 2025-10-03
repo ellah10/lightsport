@@ -152,55 +152,77 @@ nav {
     max-width: 600px;
     margin: 0 auto;
   }
-  .service-items {
+  .tab-buttons {
+    margin: 20px 0;
+    background-color: #eceff3;
+    border-radius: 30px;
+    .active-tab {
+      background-color: #02b1e6;
+      color: #fff;
+      font-weight: 600;
+    }
+    button {
+      margin: 20px;
+      padding: 15px 20px;
+      border: none;
+      background-color: #eceff3;
+      color: #000;
+      font-size: 18px;
+      cursor: pointer;
+      transition: all .3s ease-in-out;
+      border-radius: 30px;
+      &:hover {
+            background-color: #02b1e6;
+            color: #fff;
+          }
+    }
+  }
+  .tab-content {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px;
-    flex-wrap: wrap;
+    background-color: #1a0fc8;
+    border-radius: 30px;
+    overflow: hidden;
     .item {
-      width: 45%;
-      height: auto;
-      margin: 15px;
-      color: #fff;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: center;
+      height: 500px;
+      transition: all .3s ease-in-out;
       .item-image {
-        width: 100%;
-        height: 400px;
+        width: 40%;
+        height: 100%;
         img {
           width: 100%;
           height: 100%;
-          object-position: center;
           object-fit: cover;
         }
       }
       .item-text {
-        width: 100%;
-        height: 200px;
-        padding: 20px;
-        background-color: #1a0fc8;
+        width: 60%;
+        color: #fff;
         h3 {
-          font-size: 20px;
-          font-weight: 700;
+          margin: 15px 0;
+          font-size: 30px;
         }
         p {
-          color: #dfe4eb;
+          margin-bottom: 15px;
         }
         .more-btn {
-          background-color: #fff;
-          border: none;
-          padding: 15px 28px;
-          color: #1a0fc8;
-          border-radius: 100px;
-          cursor: pointer;
-          transition: all 0.3s ease-in-out;
-          font-size: 18px;
           display: inline-flex;
-          justify-content: space-between;
           align-items: center;
-          margin: 20px;
+          padding: 15px 20px;
+          color: #1a0fc8;
+          font-size: 17px;
+          border-radius: 30px;
+          border: none;
+          cursor: pointer;
+          font-weight: 600;
+          transition: all .3s ease-in-out;
           span {
-            padding-right: 8px;
+            padding-right: 10px;
           }
           &:hover {
             background-color: #02b1e6;
@@ -210,6 +232,64 @@ nav {
       }
     }
   }
+  // .service-items {
+  //   width: 100%;
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: space-between;
+  //   margin-top: 20px;
+  //   flex-wrap: wrap;
+  //   .item {
+  //     width: 45%;
+  //     height: auto;
+  //     margin: 15px;
+  //     color: #fff;
+  //     .item-image {
+  //       width: 100%;
+  //       height: 400px;
+  //       img {
+  //         width: 100%;
+  //         height: 100%;
+  //         object-position: center;
+  //         object-fit: cover;
+  //       }
+  //     }
+  //     .item-text {
+  //       width: 100%;
+  //       height: 200px;
+  //       padding: 20px;
+  //       background-color: #1a0fc8;
+  //       h3 {
+  //         font-size: 20px;
+  //         font-weight: 700;
+  //       }
+  //       p {
+  //         color: #dfe4eb;
+  //       }
+  //       .more-btn {
+  //         background-color: #fff;
+  //         border: none;
+  //         padding: 15px 28px;
+  //         color: #1a0fc8;
+  //         border-radius: 100px;
+  //         cursor: pointer;
+  //         transition: all 0.3s ease-in-out;
+  //         font-size: 18px;
+  //         display: inline-flex;
+  //         justify-content: space-between;
+  //         align-items: center;
+  //         margin: 20px;
+  //         span {
+  //           padding-right: 8px;
+  //         }
+  //         &:hover {
+  //           background-color: #02b1e6;
+  //           color: #fff;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 }
 .realisations {
   width: 100%;

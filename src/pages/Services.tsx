@@ -101,4 +101,72 @@ function Services() {
         </div>
     );
 }
+
+//services
+{/* <div className="service container">
+                    <h2>Nos services</h2>
+                    <p>Explorez notre large éventail de solutions sportives, conçues pour répondre à tous vos besoins et vous accompagner dans vos performances</p>
+                    <div className="service-items">
+                        <div className="item">
+                            <div className="item-image">
+                                <img src={customJersey} alt="customJersey" />
+                            </div>
+                            <div className="item-text">
+                                <h3>Maillots sur mesure</h3>
+                                <p>Création et fabrication de maillots personnalisés pour équipes sportives, clubs et événements, alliant style, confort et performance.</p>
+                                <button className="more-btn">
+                                    <span>
+                                        en savoir plus
+                                    </span>
+                                    <ArrowRight />
+                                </button>
+                            </div>
+                        </div>
+                        <div className="item">
+                            <div className="item-image">
+                                <img src={equipement} alt="equipement" />
+                            </div>
+                            <div className="item-text">
+                                <h3>Matériel sportif de qualité</h3>
+                                <p>Une vaste sélection de chaussures, ballons, accessoires et équipements, conçus pour tous les sports et tous les niveaux.</p>
+                                <button className="more-btn">
+                                    <span>
+                                        en savoir plus
+                                    </span>
+                                    <ArrowRight />
+                                </button>
+                            </div>
+                        </div>
+                        <div className="item">
+                            <div className="item-image">
+                                <img src={impression} alt="serigraphie" />
+                            </div>
+                            <div className="item-text">
+                                <h3>Personnalisation par impression et sérigraphie</h3>
+                                <p>Services professionnels d’impression sur textiles, objets promotionnels et supports publicitaires, pour mettre en valeur votre marque avec style et qualité.</p>
+                                <button className="more-btn">
+                                    <span>
+                                        en savoir plus
+                                    </span>
+                                    <ArrowRight />
+                                </button>
+                            </div>
+                        </div>
+                        <div className="item">
+                            <div className="item-image">
+                                <img src={kit} alt="kitComplet" />
+                            </div>
+                            <div className="item-text">
+                                <h3>Kits complets</h3>
+                                <p>maillots, shorts et chaussettes assortis pour un style uniforme</p>
+                                <button className="more-btn">
+                                    <span>
+                                        en savoir plus
+                                    </span>
+                                    <ArrowRight />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div> */}
 export default Services
