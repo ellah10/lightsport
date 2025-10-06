@@ -16,17 +16,23 @@ import real8 from "../assets/ls2.jpg";
 import { ArrowRight } from 'lucide-react';
 import FadeInSection from "../components/FadeInSection";
 import ServicesTabs from "../components/ServicesTabs";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate("/about");
+    };
+
     return (
         <div>
             <FadeInSection>
                 <div className="banner">
-                    <img src={jerseyPic} alt="jerseyPic" className='banner-pic' />
+                    <div className="banner-overlay"></div>
                     <div className="banner-text">
                         <h1>Bienvenue dans l’univers des maillots sportifs sur mesure !</h1>
-                        <p>Chez LIGHTSPORTS, nous offrons aux sportifs des produits et services de haute qualité, alliant style, performance et professionnalisme. De la conception de maillots et équipements sportif à l’accompagnement de carrière et au coaching personnalisé, nous faisons de chaque expérience sportive un véritable succès.</p>
-                        <button className="banner-btn">
+                        <p>Chez LIGHTSPORTS, nous offrons aux sportifs des produits et services alliant style, performance et professionnalisme,du design d’équipements au coaching et à l’accompagnement de carrière.</p>
+                        <button className="banner-btn" onClick={handleClick}>
                             <span>
                                 en savoir plus
                             </span>
@@ -40,7 +46,7 @@ function Home() {
             </FadeInSection>
             <FadeInSection>
                 <div className="realisations container">
-                    <h2>Nos Réalisations</h2>
+                    <h2>Notre Catalogue</h2>
                     <p>Découvrez nos créations les plus impressionnantes, où style, qualité et personnalisation se rencontrent. Cliquez et laissez-vous inspirer !</p>
                     <div className="real-items">
                         <div className="item">
