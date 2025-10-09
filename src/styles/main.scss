@@ -22,7 +22,7 @@ nav {
   position: fixed;
   z-index: 1000;
   height: 100px;
-  top: 0;
+  top: 0; 
   padding: 0 20px;
   .logo {
     width: 50px;
@@ -766,6 +766,7 @@ nav {
       flex-direction: row;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
       gap: 10px;
       padding: 10px;
       button {
@@ -822,6 +823,7 @@ nav {
   }
   .realisations {
     width: 100%;
+    margin-top: 50px;
     h2 {
       font-size: 25px;
     }
@@ -921,13 +923,7 @@ nav {
       }
     }
   }
-  .footer {
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+ 
   .contact-inner {
     width: 100%;
     .contact-adress {
@@ -988,8 +984,26 @@ nav {
   }
   .testimonial {
     width: 100%;
+    margin-top: 50px;
     h1 {
       font-size: 25px;
     }
+    .slick-slider {
+      width: auto;
+      .slick-arrow {
+       visibility: hidden;
+      }
+    }
+  }
+  .tab-buttons {
+    background-color: red;
+  }
+   .footer {
+    width: 100%;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
